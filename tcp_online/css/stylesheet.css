@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body {margin:0; padding:0; background-color:#EAEAEA}
+
+/* heading styles */
+#header {height:100px; width:100%; background-color: #336699;}
+
+#separator {
+	height:25px;
+	width:100%;
+	background-color:#6699CC;
+	border-bottom-width: 3px;
+	border-bottom-style: inset;
+	border-bottom-color: #999999;
+}
+
+#banner {
+	width:900px;
+	height:100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;	
+}
+
+.eng_logo{margin-bottom:10px;}
+/* heading styles end */
+
+/* content and layout styles */
+#wrapper{width:100%}
+#content{width:900px; margin-top:0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; position:relative;
+			font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height:16px; font-weight: normal; text-align: left;}
+
+#nav{width:200px; position:absolute; left:0px;
+		/*border-right-color:#cccccc; border-right-style:solid; border-right-width:1px;*/}
+#main{width:685px; position:absolute; left:215px;}
+
+.caption{padding-left:20px; padding-right:20px}
+
+/* content and layout styles end */
+
+/* navigation styles */
+#banner a img{text-decoration:none; border:none;}
+
+#nav li a, #nav li a:visited {
+	color:#990000;
+	text-decoration:none;
+	line-height:16px;
+}
+
+#nav li a:hover{color:#FF0000;}
+#nav li a.current{color:#FF0000}
+#nav ul {padding:0px;}
+#nav li {list-style:none;}
+
+/* navigation styles end */
+
+/* text styles */
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: 42px;
+	font-weight: bold;
+	color: #990000;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0px;
+
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 32px;
+	font-weight: bold;
+	color: #990000;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+}
+
+h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: bold;
+	color: #990000;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding:0px;
+}
+
+#main h3 a, #main h3 a:visited{color:#990000;}
+#main h3 a:hover{color:#ff0000}
+
+p{margin-top:0px; margin-bottom:14px;}
+
+p img{border:1px solid #999999;}
+
+#main a, #main a:visited{text-decoration:none; color:#0000FF}
+#main ul{text-align:left; list-style-type:square; padding-left:15px; padding-top:0; padding-bottom:0; margin-top:0; list-style-position:outside;}

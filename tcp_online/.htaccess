@@ -1,0 +1,4 @@
+CosignProtected On
+AuthType Cosign
+CosignRequireFactor UPENN.EDU
+Require valid-user

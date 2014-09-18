@@ -1,0 +1,168 @@
+/*************************************
+   WELCOME TO THE CUSTOM STYLESHEET
+--------------------------------------
+              style.css
+        BlueTrip CSS Framework
+    Put your custom styles in here.
+***************************************/
+
+/**************************************/
+/*           COLOR SCHEME             */
+/**************************************
+- black		#000
+- white		#fff
+-           #
+-           #
+-           #
+***************************************/
+
+
+/**************************************/
+/*              GLOBALS               */
+/**************************************/
+html{font-size:65%}
+body{background-color:#fefefe; font-size: 1.2em; line-height: 1.4em;}
+/**************************************/
+/*              HEADER                */
+/**************************************/
+
+#header{
+	top:0;
+	color:#fff;
+	text-align:left;
+	height:100px;
+	background-color:#003399;
+	background-image:url(../images/tcp_logo.png);
+	background-repeat:no-repeat;
+}
+
+#bar{
+	background-color:#6699FF;
+	height:20px;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+/**************************************/
+/*             NAVIGATION             */
+/**************************************/
+
+#nav{
+	float: left;
+	width: 300px; /*Width of left column in pixel*/
+	margin-left: -1200px; /*Set margin to that of -(MainContainerWidth)*/
+	}
+#nav ul{
+	list-style:none;
+	
+	margin: 0; padding: 0
+	}
+#nav li{
+	width:250px;
+	background-color:#eee;
+		}
+
+#nav li a, #nav li a:visited{
+	display: block;
+	padding: 0.5em 1.0em 0.5em 1.0em;
+	width:245px; height:1.25em;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	color:#0066CC; text-decoration:none
+}
+
+#nav li.sub a{
+	padding-left: 2.3em;
+	}
+
+#nav li a:hover, #nav li.current a{
+	color:#990000;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #0066CC;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+
+
+#apply a, #apply a:visited{color:#0066CC; text-decoration:none}
+
+
+#apply a:hover, #apply a.current{color:#900; 
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #900;
+	}
+#apply a{
+	margin-left: 1.0em;
+	padding-left: 2.0em;
+	}
+
+#apply a, #nav a{ background:none !important;}
+/**************************************/
+/*            MAIN CONTENT            */
+/**************************************/
+
+#maincontainer{
+width: 1200px; /*Width of main container*/
+margin-left: 10px; /*Center container on page*/
+margin-top: 10px;
+}
+
+/* no top section #topsection{
+background: #EAEAEA;
+height: 90px; /*Height of top section
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}*/
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 250px 0 300px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+width: 650px;
+
+}
+
+/* this is #nav 
+
+#leftcolumn{
+float: left;
+width: 180px; Width of left column in pixel
+margin-left: -840px; Set margin to that of -(MainContainerWidth)
+}*/
+
+#rightcolumn{
+float: left;
+width: 200px; /*Width of right column*/
+margin-left: -200px; /*Set left margin to -(RightColumnWidth)*/
+}
+
+h1, h2, h3, h4, h5, h6 {color:#990000}
+
+table.noborder, table.noborder tr, table.noborder td{border:none}
+table.nopadding, table.nopadding tr, table.nopadding td{padding:0}
+a{padding:0; margin:0}
+/**************************************/
+/*               FOOTER               */
+/**************************************/
+#footer{
+clear: left;
+width: 100%;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer div.innertube{
+	width:650px;
+	margin-left: 320px;
+	}

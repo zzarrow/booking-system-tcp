@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*fonts */
+body, html
+   {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   margin:0;
+   padding:0;
+   }
+
+   
+h2 {color:#990000; font-weight:bold}
+h2 {color:#990000}
+h3 {color:#000000}
+
+h2, h2, h3, p {margin-left:15px}
+
+/* positioning and layout */
+#header{
+	background-color:#6B82AD;
+	height:90px;
+	}
+
+#eng_logo{
+	background-color:#011f5b;
+	position:absolute;
+	top:0;
+	left:0;
+	width:250px;
+	height:90px
+	}
+#tcp_logo{
+	background-color:#6B82AD;
+	position:absolute;
+	top:0;
+	left:250px;
+	}
+
+#nav{
+	background-color:#011f5b;
+	position:absolute;
+	top:0px;
+	left:0;
+	width:250px;
+	height:100%;
+	}
+	
+#wrapper{
+	position:absolute;
+	top:90px;
+	left:0px;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0
+	}
+
+#content{
+	background-color:#FFFFFF;
+	position:absolute;
+	top:0px;
+	width:auto;
+	left:250px;
+	}
+	
+#footer{
+	background-color:#6B82AD;
+	color:#FFFFFF;
+	padding-right:175px;
+	}
+	
+
+/* other design styles */
+a img {border:none}
+
+#menu{
+	list-style-position: inside;
+	list-style-image: url(../nav_images/red_arrow.gif);
+	}
+
+#menu li ul{
+	list-style:none;
+	list-style-position:outside;
+	}
+#menu li ul a, #menu li ul a:visited{color:#6699FF;	font-weight:normal;	cursor:pointer}
+	
+#menu li ul a:hover{color:#3333CC}
+	
+#menu a, #menu a:visited{color:#FFFFFF; font-weight:bold; cursor:pointer}
+
+#menu a:hover{color:#3333CC}
+
+#apply{list-style:none}
+
+#apply a, #apply a:visited{color:#FFFFFF; font-weight:bold; cursor:pointer}
+
+#apply a:hover{color:#3333CC}
